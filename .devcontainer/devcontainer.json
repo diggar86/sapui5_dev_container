@@ -6,6 +6,11 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+
+	"extensions": [
+		"SAPSE.sap-ux-fiori-tools-extension-pack",
+		"mhutchie.git-graph"
+	],
 	// "updateRemoteUserUID": false
 
 	// "workspaceMount": "source=${localWorkspaceFolder},target=/home/node/workspace,type=bind,consistency=cached", 

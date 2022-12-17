@@ -7,7 +7,7 @@ RUN wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.k
 RUN apt-get update \
   && apt-get -y install --no-install-recommends cf7-cli
 
-RUN su node -c "npm i -g @ui5/cli"
+RUN su node -c "npm i -g @ui5/cli yo generator-easy-ui5"
 # RUN npm i -g @ui5/cli
 
 RUN su node -c "cf api https://api.cf.us10-001.hana.ondemand.com"
